@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante Martartar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Restaurante Martartar</h1>
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#reserva">Reservas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<form id="formAgregar">
+    <input type="text" id="nombrePlato" placeholder="Nombre del plato" required>
+    <input type="number" id="precioPlato" placeholder="Precio" required>
+    <input type="text" id="descripcionPlato" placeholder="Descripción del plato" required>
+    <button type="submit">Agregar</button>
+</form>
+
+<section id="bienvenida">
+    <h2>Bienvenido a Martartar</h2>
+    <p>Una experiencia gastronómica única con ingredientes frescos y recetas tradicionales. Nuestra especialidad, los tartares.</p>
+</section>
+
+<section id="menu">
+    <h2>Nuestro Menú</h2>
+    <!-- Aquí voy a meter los platos de forma dinámica con javascript -->
+</section>
+
+<section id="reserva">
+    <h2>Reserva una mesa</h2>
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <input type="date" required>
+        <input type="time" required>
+        <button type="submit">Reservar</button>
+    </form>
+</section>
+<section id="contacto">
+    <h2>Contáctanos</h2>
+    <p> Calle Recoletos, 87, Madrid</p>
+    <p> 912 345 678</p>
+    <p>contacto@martartar.com</p>
+</section>
+
+<footer>
+    <p> &copy; 2025 Martartar.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
